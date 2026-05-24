@@ -73,8 +73,7 @@ jobs:
         df -hT $GITHUB_WORKSPACE
         git clone --depth 1 -b $REPO_BRANCH $REPO_URL openwrt
         cd openwrt
-        echo "OPENWRT_PATH=$PWD" >> $GITHUB_ENV
-
+        
     - name: Install Feeds(安装feeds)
       run: |
         cd $OPENWRT_PATH
