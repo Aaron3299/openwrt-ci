@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: true
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: M2-6.12-NOWIFI
+  FIRMWARE_TAG: A18-6.12-NOWIFI
   TZ: Asia/Shanghai
 
 jobs:
